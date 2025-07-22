@@ -1,0 +1,148 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'cinzel decorative', serif;
+    line-height: 1.6;
+    color: #10001f;
+    background-color: #f9f9f9;
+}
+
+img {
+    max-width: 10%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #d9a7c7, #fffcdc);
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+header p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0,7);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: #030303;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #007aff;
+}
+/* seção */
+section {
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/*seção*/
+article {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+article a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+article a:hover {
+    color: #007aff;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*formulário*/
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+form a {
+    color: #22053d;
+    text-decoration: none;
+    margin-top: 10px;
+}
+form a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+.button:hover {
+    background-color: #45a049;
+}
+
+/*footer*/
+
+footer {
+    background: #0000;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #22053d;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
